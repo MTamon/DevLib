@@ -1,6 +1,6 @@
 """Initialize published package."""
 
-from devlib import parallel
+from toolpack import parallel
 
 ############## EDIT THESE INFORMATION ###############
 AUTHOR = "Tamon Mikawa"

@@ -3,11 +3,11 @@
 from os import path
 from setuptools import setup
 
-from devlib import VERSION, LICENCE, AUTHOR, EMAIL, GIT_URL
+from toolpack import VERSION, LICENCE, AUTHOR, EMAIL, GIT_URL
 
-NAME = "devlib"
-PACKAGES = ["devlib"]
-DESCRIPTION = "dev-lib for python development tools package"
+NAME = "toolpack"
+PACKAGES = ["toolpack"]
+DESCRIPTION = "toolpack for python development tools package"
 KEYWORDS = "devlopment, tools, parallel"
 
 root_dir = path.abspath(path.dirname(__file__))
