@@ -3,13 +3,12 @@
 from os import path
 from setuptools import setup
 
-# TODO: change project to your project name
-from project import VERSION, LICENCE, AUTHOR, EMAIL, GIT_URL
+from devlib import VERSION, LICENCE, AUTHOR, EMAIL, GIT_URL
 
-NAME = "project"
-PACKAGES = ["project"]
-DESCRIPTION = "description"
-KEYWORDS = "keywords1, kyewords2, keywords3, ..."
+NAME = "devlib"
+PACKAGES = ["devlib"]
+DESCRIPTION = "dev-lib for python development tools package"
+KEYWORDS = "devlopment, tools, parallel"
 
 root_dir = path.abspath(path.dirname(__file__))
 
