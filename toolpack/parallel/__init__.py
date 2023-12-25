@@ -1,1 +1,1 @@
-from toolpack.parallel.parallel import parallel_luncher
+from .parallel import parallel_luncher

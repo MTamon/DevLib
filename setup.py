@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 
 from os import path
-from setuptools import setup
+from setuptools import setup, find_packages
 
 from toolpack import VERSION, LICENCE, AUTHOR, EMAIL, GIT_URL
 
 NAME = "toolpack"
-PACKAGES = ["toolpack"]
 DESCRIPTION = "toolpack for python development tools package"
 KEYWORDS = "devlopment, tools, parallel"
 
@@ -43,7 +42,7 @@ with open("README.md", encoding="utf-8") as f:
 
 setup(
     name=NAME,
-    packages=PACKAGES,
+    packages=find_packages(),
     version=VERSION,
     license=LICENCE,
     install_requires=_requirements(),

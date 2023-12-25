@@ -7,7 +7,7 @@ AUTHOR = "Tamon Mikawa"
 EMAIL = "mtamon.engineering@gmail.com"
 YEAR = "2023"
 GIT_URL = "https://github.com/MTamon/DevLib.git"
-VERSION = "0.0.2"
+VERSION = "0.0.4"
 LICENCE = "MIT License"
 #####################################################
 
